@@ -1,10 +1,5 @@
 ---
 
-📜 README.md for Custom-daemon-for-adb (the one you use with Daemon_call)
-
-
----
-
 Custom Daemon for ADB
 
 This daemon allows you to execute commands as the shell user on Android directly from Termux or any other local shell emulator.
