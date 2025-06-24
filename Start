@@ -1,0 +1,9 @@
+#!/system/bin/sh
+
+(
+  setsid sh -c '
+    dalvikvm -cp /data/local/tmp/classes.dex RunDaemon >/dev/null 2>&1 < /dev/null &
+    exit 0
+  '
+) &
+exit 0
